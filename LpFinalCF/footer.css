@@ -1,0 +1,27 @@
+footer{
+    background-color:  #7ac143;
+}
+
+#wave{
+    background-color: transparent;
+}
+
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright{
+    color: #0c1109;
+    font-size: 700;
+
+}
+
+@media screen and (max-width: 600px){
+    #footer_items{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
