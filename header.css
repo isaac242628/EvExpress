@@ -12,17 +12,9 @@ header{
 }
 
 #nav_logo{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #083c82;
-    text-align: center;
+    width: 150px;
+    padding-left: 0%;
     position: relative;
-}
-
-#nav_logo2{
-    font:'Be Vietnam Pro';
-    color:#083c82;
-    background: linear-gradient(45deg, #7ac143, #0288d1);
 }
 
 #nav_list{
@@ -34,7 +26,7 @@ header{
 .nav-item a{
     font-size: large;
     text-decoration: none;
-    color: #1d1d1dad;
+    color: #015f83;
     font-weight: 700;
     transition: color 0.3s ease;
 }
