@@ -6,26 +6,26 @@
 @import url(style/footer.css);
 
 
-*{
+* {
     font-family: "Be Vietnam Pro", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #f8faf6;
 }
 
-section{
+section {
     padding: 28px 8%;
 }
 
-.btn-default{    
+.btn-default {
     border: none;
     display: flex;
     align-items: center;
@@ -39,12 +39,12 @@ section{
     transition: background-color .3s ease;
 }
 
-.social-media-buttons{
+.social-media-buttons {
     display: flex;
     gap: 18px;
 }
 
-.social-media-buttons a{
+.social-media-buttons a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,20 +59,20 @@ section{
     transition: box-shadow .3 ease;
 }
 
-.social-media-buttons a:hover{
+.social-media-buttons a:hover {
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
-.section-title{
+.section-title {
     color: #083c82;
     font-size: 1.563rem;
 }
 
-.section-subtitles{
+.section-subtitles {
     font-size: 2.1875rem;
 }
 
-#section_title{
+#section_title {
     text-align: center;
     color: #083c82;
     font-size: 2.1875rem;

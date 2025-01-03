@@ -1,4 +1,4 @@
-#service{
+#service {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     min-height: 100vh;
 }
 
-#services{
+#services {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     margin-top: 32px;
 }
 
-.service{
+.service {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
     overflow: hidden;
 }
 
-.service-gem{
+.service-gem {
     position: absolute;
     background-color: #7ac143;
     display: flex;
@@ -43,37 +43,37 @@
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
-.service-title{
+.service-title {
     text-align: center;
 }
 
-.service-description{
+.service-description {
     color: #0c1109;
     text-align: center;
 }
 
-.service-image{
+.service-image {
     width: 100px;
     height: 100px;
 }
 
-@media screen and (max-width: 1170px){
-    #services{
+@media screen and (max-width: 1170px) {
+    #services {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .service{
+    .service {
         width: calc(50% - 12px);
     }
 }
 
-@media screen and (max-width: 600px){
-    .service{
+@media screen and (max-width: 600px) {
+    .service {
         width: calc(100% - 12px);
     }
 
-    #menu .section-subtitles{
+    #menu .section-subtitles {
         text-align: center;
     }
 }
